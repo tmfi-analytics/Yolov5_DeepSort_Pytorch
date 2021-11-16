@@ -4,6 +4,10 @@ if [ $JUST_PREDICTION -eq 1 ]; then
   # YOLOV5の学習済みモデルの重みをダウンロード
   mkdir -p /app/yolov5/runs/train/exp/weights
   wget -P /app/yolov5/runs/train/exp/weights /app/data -nc https://tf-analytics-reference.s3.ap-northeast-1.amazonaws.com/yolov5-deepsort-pytorch/best.pt
+  
+  # テスト用データをロード
+  wget -P /app/data -nc https://tf-analytics-reference.s3.ap-northeast-1.amazonaws.com/yolov5-deepsort-pytorch/test.zip
+  unzip -o /app/data/test.zip -d /app/data/
 else
   if [ $USE_CUSTOM_DATASET -eq 0 ]; then
     # yolov5学習用データセットを取得
