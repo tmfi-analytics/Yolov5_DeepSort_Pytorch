@@ -29,7 +29,7 @@
     - execute docker run command
       ```
       cd Yolov5_DeepSort_Pytorch
-      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME] bash
+      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME]
       ```
     - watch the output video
       ```
@@ -48,7 +48,7 @@
     - execute docker run command
       ```
       cd Yolov5_DeepSort_Pytorch
-      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME] bash
+      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME]
       ```
     - watch the output video
       ```
@@ -79,7 +79,7 @@
     - execute docker run command
       ```
       cd Yolov5_DeepSort_Pytorch
-      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME] bash
+      docker run -it --env-file=config.sh -v `pwd`/data:/app/data --shm-size=2048m [YOUR CONTAINER NAME]
       ```
     - watch the output video
       ```
