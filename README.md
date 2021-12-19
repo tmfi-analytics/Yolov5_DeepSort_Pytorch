@@ -1,5 +1,6 @@
 # Easy training program of Yolov5 Deep Sort with PyTorch
 - This repository is folked from https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch
+- Some explanation of this repository is [here](https://tf-data-analytics.com/yolov5-deepsort-object-tracking/)(In Japanese)
 
 ### Prerequisites
 - Already installed Docker
